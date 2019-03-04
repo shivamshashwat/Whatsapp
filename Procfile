@@ -1,1 +1,1 @@
-web python WhatsappConnector.py
+web: gunicorn WhatsappConnector:app
